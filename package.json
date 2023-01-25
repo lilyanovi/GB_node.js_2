@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
+    "task": "node task.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/lilyanovi/GB_node.js_2/issues"
   },
-  "homepage": "https://github.com/lilyanovi/GB_node.js_2#readme"
+  "homepage": "https://github.com/lilyanovi/GB_node.js_2#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
 }
